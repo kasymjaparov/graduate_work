@@ -1,0 +1,40 @@
+.myAppBar__links__profile__tooltip {
+  position: absolute;
+  top: 44px;
+  right: 15px;
+  padding-top: 5px;
+  z-index: 5;
+  width: 250px;
+  background: #062e4a;
+  border-radius: 4px;
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%),
+    0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+}
+
+.myAppBar__links__profile__tooltip__header {
+  border-bottom: 1px solid rgba(67, 87, 133, 0.2);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.myAppBar__links__profile__tooltip__body__links__item {
+  display: flex;
+  align-items: center;
+  padding: 12px 10px;
+  cursor: pointer;
+}
+.myAppBar__links__profile__tooltip__body__links__item:hover {
+  color: #4a32d4;
+  text-decoration: none;
+  background-color: #eff1f5;
+}
+.myAppBar__links__profile__tooltip__body__links__item__icon {
+  color: #4a32d4;
+  margin: 0px 8px;
+}
+@media (max-width: 960px) {
+  .myAppBar__links__profile__tooltip {
+    width: 200px;
+  }
+}

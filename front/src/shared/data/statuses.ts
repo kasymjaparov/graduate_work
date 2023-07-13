@@ -1,0 +1,20 @@
+export const statuses = [
+{ text: "В обработке", value: "new" }, 
+{ text: "Ответственные назначены", value: "approved" }, 
+{ text: "Отказано", value: "denied" }, 
+{ text: "Время замера установлено", value: "measure_time" }, 
+{ text: "Замер закреплен", value: "measure_attached" }, 
+{ text: "Дата готовности дизайна установлена", value: "design_time" }, 
+{text:"Дизайн прикреплен",value:"design_attached"},
+{ text: "Дизайн утвержден", value: "design_approved" }, 
+{ text: "Дизайн отклонен", value: "design_denied" }, 
+{ text: "Акт с прейскурантом закреплен", value: "prework_attached" }, 
+{ text: "Акт с прейскурантом одобрен", value: "prework_approved" }, 
+{ text: "Акт с прейскурантом отклонен", value: "prework_denied" }, 
+{ text: "Договор прикреплен", value: "contract_attached" },
+{ text: "Чек прикреплен", value: "check_attached" },
+{ text: "Чек отклонен", value: "check_declined" },
+{ text: "Чек утвержден", value: "check_approved" },
+{ text: "Акт о работах прикреплен", value: "finish_doc_attached" },
+{text:"Отчет по ремонту прикреплен",value:"stage_report_attached"}
+]
