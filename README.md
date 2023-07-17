@@ -7,7 +7,7 @@ Server stack:
 
 - Python
 - FastAPI
-- AlchemyORM
+- SQLAlchemy ORM
 - Postgres
 
 Client stack:
